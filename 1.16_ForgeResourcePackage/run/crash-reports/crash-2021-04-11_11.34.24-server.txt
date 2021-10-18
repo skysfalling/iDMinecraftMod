@@ -1,0 +1,147 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 4/11/21 11:34 AM
+Description: Ticking entity
+
+java.lang.IllegalArgumentException: Can't find attribute minecraft:generic.attack_damage
+	at net.minecraft.entity.ai.attributes.AttributeModifierMap.func_233810_d_(AttributeModifierMap.java:21) ~[?:?] {re:classloading}
+	at net.minecraft.entity.ai.attributes.AttributeModifierMap.func_233804_a_(AttributeModifierMap.java:28) ~[?:?] {re:classloading}
+	at net.minecraft.entity.ai.attributes.AttributeModifierManager.func_233795_c_(AttributeModifierManager.java:67) ~[?:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.func_233637_b_(LivingEntity.java:1848) ~[?:?] {re:classloading}
+	at net.minecraft.entity.passive.IronGolemEntity.func_226511_et_(IronGolemEntity.java:187) ~[?:?] {re:classloading}
+	at net.minecraft.entity.passive.IronGolemEntity.attackEntityAsMob(IronGolemEntity.java:193) ~[?:?] {re:classloading}
+	at net.minecraft.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:154) ~[?:?] {re:classloading}
+	at net.minecraft.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:146) ~[?:?] {re:classloading}
+	at net.minecraft.entity.ai.goal.PrioritizedGoal.tick(PrioritizedGoal.java:63) ~[?:?] {re:classloading}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_221] {}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_221] {}
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_221] {}
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_221] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_221] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_221] {}
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_221] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_221] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_221] {}
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_221] {}
+	at net.minecraft.entity.ai.goal.GoalSelector.tick(GoalSelector.java:91) ~[?:?] {re:classloading}
+	at net.minecraft.entity.MobEntity.updateEntityActionState(MobEntity.java:738) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.livingTick(LivingEntity.java:2562) ~[?:?] {re:classloading}
+	at net.minecraft.entity.MobEntity.livingTick(MobEntity.java:537) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.entity.passive.IronGolemEntity.livingTick(IronGolemEntity.java:117) ~[?:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2304) ~[?:?] {re:classloading}
+	at net.minecraft.entity.MobEntity.tick(MobEntity.java:336) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerWorld.updateEntity(ServerWorld.java:616) ~[?:?] {re:classloading}
+	at net.minecraft.world.World.guardEntityTick(World.java:643) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:400) ~[?:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:889) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:825) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:87) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:665) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$func_240784_a_$0(MinecraftServer.java:231) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.entity.ai.attributes.AttributeModifierMap.func_233810_d_(AttributeModifierMap.java:21)
+	at net.minecraft.entity.ai.attributes.AttributeModifierMap.func_233804_a_(AttributeModifierMap.java:28)
+	at net.minecraft.entity.ai.attributes.AttributeModifierManager.func_233795_c_(AttributeModifierManager.java:67)
+	at net.minecraft.entity.LivingEntity.func_233637_b_(LivingEntity.java:1848)
+	at net.minecraft.entity.passive.IronGolemEntity.func_226511_et_(IronGolemEntity.java:187)
+	at net.minecraft.entity.passive.IronGolemEntity.attackEntityAsMob(IronGolemEntity.java:193)
+	at net.minecraft.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:154)
+	at net.minecraft.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:146)
+	at net.minecraft.entity.ai.goal.PrioritizedGoal.tick(PrioritizedGoal.java:63)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at net.minecraft.entity.ai.goal.GoalSelector.tick(GoalSelector.java:91)
+	at net.minecraft.entity.MobEntity.updateEntityActionState(MobEntity.java:738)
+	at net.minecraft.entity.LivingEntity.livingTick(LivingEntity.java:2562)
+	at net.minecraft.entity.MobEntity.livingTick(MobEntity.java:537)
+	at net.minecraft.entity.passive.IronGolemEntity.livingTick(IronGolemEntity.java:117)
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2304)
+	at net.minecraft.entity.MobEntity.tick(MobEntity.java:336)
+	at net.minecraft.world.server.ServerWorld.updateEntity(ServerWorld.java:616)
+
+-- Entity being ticked --
+Details:
+	Entity Type: examplemod:firegolem (com.idtech.entity.FireGolem.FireGolemEntity)
+	Entity ID: 33
+	Entity Name: entity.examplemod.firegolem
+	Entity's Exact location: 151.53, 63.00, 74.26
+	Entity's Block location: World: (151,63,74), Chunk: (at 7,3,10 in 9,4; contains blocks 144,0,64 to 159,255,79), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: -0.09, -0.08, -0.31
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.guardEntityTick(World.java:643)
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:400)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 2025
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (108,63,111), Chunk: (at 12,3,15 in 6,6; contains blocks 96,0,96 to 111,255,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 389 game time, 389 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 127991 (now: false), thunder time: 154793 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:889)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:825)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:87)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:665)
+	at net.minecraft.server.MinecraftServer.lambda$func_240784_a_$0(MinecraftServer.java:231)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 512286096 bytes (488 MB) / 2277507072 bytes (2172 MB) up to 3801088000 bytes (3625 MB)
+	CPUs: 12
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.1.2+70+master.2845bb9
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.3-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 32.0
+	Forge: net.minecraftforge:32.0.44
+	FML Language Providers: 
+		javafml@32.0
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.16.1 DONE}
+		forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-recomp.jar Forge {forge@32.0.44 DONE}
+		main Test Mod {examplemod@NONE DONE}
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:examplemod (incompatible), mod:forge (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

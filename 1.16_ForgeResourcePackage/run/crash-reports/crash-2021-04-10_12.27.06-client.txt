@@ -1,0 +1,97 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 4/10/21 12:27 PM
+Description: mouseClicked event handler
+
+java.net.ConnectException: connection refused: local:E:3e8f9665
+	at io.netty.channel.local.LocalChannel$LocalUnsafe.connect(LocalChannel.java:491) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1366) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:545) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:530) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:512) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:1024) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.channel.AbstractChannel.connect(AbstractChannel.java:259) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.bootstrap.Bootstrap$3.run(Bootstrap.java:274) ~[patchy-1.1.jar:4.1.25.Final] {}
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[netty-all-4.1.25.Final.jar:4.1.25.Final] {}
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_221] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:424)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.screen.WorldSelectionScreen
+Stacktrace:
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:424)
+	at net.minecraft.client.MouseHelper.mouseButtonCallback(MouseHelper.java:90)
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:185)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86)
+	at net.minecraft.client.MouseHelper.lambda$registerCallbacks$5(MouseHelper.java:184)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101)
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93)
+	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:304)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1007)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:586)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 758024328 bytes (722 MB) / 2249719808 bytes (2145 MB) up to 3801088000 bytes (3625 MB)
+	CPUs: 12
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.1.2+70+master.2845bb9
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.3-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 32.0
+	Forge: net.minecraftforge:32.0.44
+	FML Language Providers: 
+		javafml@32.0
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.16.1 DONE}
+		forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-recomp.jar Forge {forge@32.0.44 DONE}
+		main Test Mod {examplemod@NONE DONE}
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: GeForce GT 1030/PCIe/SSE2 GL version 4.6.0 NVIDIA 456.71, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient":
+  {
+    "item": "minecraft:cooked_chicken"
+  },
+  "result":
+  {
+    "item": "examplemod:chickennugget",
+    "count": 1
+  }
+}

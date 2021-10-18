@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:diamond"
+    },
+    "y": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+      "item": "examplemod:rubberblock",
+      "count": 1
+  }
+}

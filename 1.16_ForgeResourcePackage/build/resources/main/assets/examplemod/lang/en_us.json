@@ -1,0 +1,26 @@
+{
+
+  "block.examplemod.castlewall": "Castle Wall",
+  "block.examplemod.rubber_block": "Rubber Block",
+  "block.examplemod.rubyoreblock": "Ruby Ore",
+  "block.examplemod.nuggetblock": "Chicken Nugget Ore",
+  "block.examplemod.bluepinkstone": "Blue Pink Stone",
+
+  "item.examplemod.yummyfood": "POCKY",
+  "item.examplemod.chickennugget": "Chicken Nugget",
+
+  "item.examplemod.frost_zombie_egg": "Frost Zombie Spawn Egg",
+
+  "item.examplemod.structuregel": "Structure Gel",
+  "item.examplemod.rubyitem": "Ruby",
+  "item.examplemod.rubypickaxe" : "Ruby Pickaxe",
+  "item.examplemod.rubyenhancedsword": "Ruby Enhanced Sword",
+
+  "item.examplemod.dragonscalehelm": "Dragon Scale Helm",
+  "item.examplemod.dragonscalechest": "Dragon Scale Chest",
+  "item.examplemod.dragonscalelegs": "Dragon Scale Legs",
+  "item.examplemod.dragonscaleboots": "Dragon Scale Boots",
+
+  "item.examplemod.applebomb": "Apple Bomb"
+
+}
