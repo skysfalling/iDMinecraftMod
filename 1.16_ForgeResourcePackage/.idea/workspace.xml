@@ -4,7 +4,94 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/idtech/item/ItemMod.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51884405-7c2d-44bc-a9dc-0e95b3c4eca8" name="Default Changelist" comment="" />
+    <list default="true" id="51884405-7c2d-44bc-a9dc-0e95b3c4eca8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/idtech/BaseMod$OreGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/idtech/BaseMod$OreGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/idtech/BaseMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/idtech/BaseMod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/ObsidianHillsBiome.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/ObsidianHillsBiome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/WorldGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/WorldGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/WorldMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/idtech/world/WorldMod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-10.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-11.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-8.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-10-11-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-10-11-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/DIM-1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/DIM1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-1.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-3.2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-4.2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.-4.3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/poi/r.0.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-1.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-2.4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-3.2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-3.3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-3.4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-4.2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-4.3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.-4.4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/region/r.0.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/serverconfig/forge-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/MOds/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idtech/BaseMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idtech/BaseMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -57,77 +144,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityMod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/models/item/zombo_egg.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/models/item/frost_zombie_egg.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/lang/en_us.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1513">
@@ -139,8 +155,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/BaseMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="121" column="52" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="52" />
+            <state relative-caret-position="314">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="105" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/block/BlockMod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -148,7 +221,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/world/biome/Biome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="2856">
               <caret line="238" column="30" selection-start-line="238" selection-start-column="30" selection-end-line="238" selection-end-column="30" />
             </state>
           </provider>
@@ -163,11 +236,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/idtech/item/RubyEnhancedSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/FireGolem/FireGolemEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/FireGolem/FireGolemRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/examplemod/recipes/shapeless_crafting.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/examplemod/recipes/furnace_test.json" />
@@ -196,13 +270,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/examplemod/models/block/rubber_block.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/block/LauncherBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/item/FireWand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/SoundHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/block/WalkNTalk.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/examplemod/recipes/shaped_crafting.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeRendererFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityUtils.java" />
@@ -216,15 +287,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRendererFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/examplemod/lang/en_us.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/BiomesManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianWorldType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/idtech/BaseMod.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="200" />
-    <option name="y" value="19" />
-    <option name="width" value="1609" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="135" />
+    <option name="y" value="15" />
+    <option name="width" value="1432" />
     <option name="height" value="994" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -281,124 +360,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="idtech" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="idtech" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="FrostZombie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="idtech" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="projectile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="idtech" type="462c0819:PsiDirectoryNode" />
               <item name="world" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="examplemod" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.16_ForgeResourcePackage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.16_ForgeResourcePackage" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +370,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/examplemod/models/item" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -542,10 +505,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="19" width="1609" height="994" extended-state="0" />
-    <editor active="true" />
+    <frame x="135" y="15" width="1432" height="994" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.019367334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.266035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,8 +515,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996938" weight="0.15214866" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988995" visible="true" weight="0.094076656" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996938" weight="0.20441347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988995" visible="true" weight="0.26945412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +524,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946634" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50110054" side_tool="true" weight="0.7396907" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.30397022" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3031359" />
       <window_info anchor="bottom" id="Anonymous Apex" order="11" />
       <window_info anchor="bottom" id="Log Analyzer" order="12" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
@@ -619,40 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/block/LauncherBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/stats/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="135" column="4" lean-forward="true" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/models/block/launcher_block.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -694,23 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/SoundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -733,13 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FireGolem/FireGolemEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="77" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FireGolem/FireGolemEntity.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/entity/monster/IllusionerEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -754,30 +659,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeRendererFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeRenderer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostBlaze/FrostBlazeRendererFactory.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/entity/monster/BlazeEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -813,23 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/Zombo/ZomboEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="20" selection-start-line="39" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/Zombo/ZomboEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/examplemod/recipes/shapeless_crafting.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -862,13 +730,6 @@
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/block/BlockMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -927,22 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="544">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,18 +804,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/models/item/frost_zombie_egg.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/examplemod/lang/en_us.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -974,17 +811,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/world/biome/Biome.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="238" column="30" selection-start-line="238" selection-start-column="30" selection-end-line="238" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/EntityMod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="170">
+          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/entity/FrostZombie/FrostZombieRenderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -998,10 +848,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.44_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.44_mapped_snapshot_20200514-1.16-sources.jar!/net/minecraft/world/biome/Biome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="238" column="30" selection-start-line="238" selection-start-column="30" selection-end-line="238" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/block/BlockMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianWorldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/ObsidianHillsBiome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="105" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/BiomesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/logs/latest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/world/WorldMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/idtech/BaseMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="121" column="52" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="52" />
+        <state relative-caret-position="314">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

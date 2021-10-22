@@ -33,15 +33,16 @@ public class WorldGen {
 
             CountRangeConfig rangeCfg = new CountRangeConfig(5,16,0,32);
             //see genOre doc, this would make 6 veins in a chunk from y=16 to y=48
-            CountRangeConfig nuggetRange = new CountRangeConfig(9,40,0,32);
+            CountRangeConfig nuggetRange = new CountRangeConfig(2,40,0,32);
             CountRangeConfig rubyRange = new CountRangeConfig(9,40,0,50);
+            CountRangeConfig oceanRange = new CountRangeConfig(4, 20, 0, 50 );
 
 
             int veinSize = 4;
             //number of blocks generated in each of your block's veins
             BlockState nuggetBlock = BlockMod.NUGGET_BLOCK.getDefaultState(); // <-- Replace this value with your own custom block or ore!
             BlockState rubyOre = BlockMod.RUBY_ORE_BLOCK.getDefaultState();
-            BlockState blockToGenerate3 = Blocks.IRON_BLOCK.getDefaultState();
+            BlockState bluepinkstone = BlockMod.BLUE_PINK_STONE.getDefaultState();
 
 
             // to generate in all biomes:
@@ -50,7 +51,7 @@ public class WorldGen {
 
 
             // to generate in only select biomes
-            //genOreInBiomes(rubyOre, rubyRange, veinSize, Biomes.RIVER);
+            genOreInBiomes(bluepinkstone, oceanRange, veinSize, Biomes.OCEAN, Biomes.WARM_OCEAN, Biomes.LUKEWARM_OCEAN);
             //genOre(Biomes.H)
 
             // to generate except in select biomes

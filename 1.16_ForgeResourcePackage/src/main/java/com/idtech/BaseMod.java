@@ -5,6 +5,8 @@ import com.idtech.block.*;
 import com.idtech.entity.EntityMod;
 import com.idtech.entity.FrostZombie.FrostZombieEntity;
 import com.idtech.item.*;
+import com.idtech.world.ObsidianHillsBiome;
+import com.idtech.world.WorldMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
@@ -12,6 +14,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.MooshroomEntity;
 import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.BiomeManager;
 import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
@@ -94,7 +97,7 @@ public class BaseMod {
         BaseMod.LOGGER.info("Registering Biomes");
         // Add biome registry calls here
         // event.getRegistry.register(<biome variable>)
-
+        WorldMod.registerBiomes(event);
     }
 
     /**
